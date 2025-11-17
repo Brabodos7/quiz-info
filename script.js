@@ -192,7 +192,7 @@ function loadVSLPlayer() {
     
     // PASSO 1: Criar o elemento do player ANTES de carregar o script
     const playerElement = document.createElement('vturb-smartplayer');
-    playerElement.setAttribute('id', 'vid-69125f4b2e63132427944c4b');
+    playerElement.setAttribute('id', 'vid-691b854c7e4b041987abd260');
     playerElement.style.cssText = 'display: block; margin: 0 auto; width: 100%; max-width: 400px;';
     
     // Inserir o player no container
@@ -201,7 +201,7 @@ function loadVSLPlayer() {
     
     // PASSO 2: Agora carregar o script que vai detectar e inicializar o player
     const script = document.createElement("script");
-    script.src = "https://scripts.converteai.net/3ab73391-2f65-423a-bb5f-028b67a00306/players/69125f4b2e63132427944c4b/v4/player.js";
+    script.src = "https://scripts.converteai.net/4867e3c6-3e33-49a7-96a3-d6f30b35a9cf/players/691b854c7e4b041987abd260/v4/player.js";
     script.async = true;
     
     script.onload = function() {
